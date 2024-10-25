@@ -1,0 +1,157 @@
+:root{
+  --cor-primaria: rgb(182, 24, 25);
+  --cor-secundaria: rgb(229, 229, 229);
+  --cor-hover: rgb(231, 42, 42);
+  --fonte-primaria:"Roboto", sans-serif;
+  --fonte-secundaria:"Bungee", sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+body, input, textarea{
+  font-family: var(--fonte-primaria);
+  font-weight: 400;
+  font-style: normal;
+}
+
+header{
+  padding: 16px 0;
+  background-color: rgb(182, 24, 25);
+  color: rgb(229, 229, 229);
+}
+  
+.container{
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header img{
+  height: 5rem;
+}
+  
+header .container,
+section .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+header,
+section h2,
+section h3{
+  font-family: var(--fonte-secundaria);
+  font-weight: 400;
+  font-style: normal;
+}
+
+header nav{
+  display: flex;
+}
+
+header nav li{
+  display: inline;
+  margin-left: 16px;
+  font-size: 18px;
+}
+  
+header nav li a{
+  color: rgb(229, 229, 229);
+  text-decoration: none;
+}
+
+section{
+  padding: 24px 0;
+  color: rgb(182, 24, 25);;
+}
+
+section .container{
+  align-items: flex-start;
+}
+
+.store-front{
+  margin-right: 32px;
+}
+
+section h2{
+  margin-bottom: 16px;
+}
+
+section p{
+  margin-bottom: 12px;
+}
+
+.brands-list img{
+  height: 24px;
+}
+
+.brands-list li{
+  display: inline;
+  margin-right: 8px;
+}
+
+#contact .container{
+  display: block;
+}
+
+.contact-methods{
+  display: flex;
+  justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+form textarea{
+  resize: none;
+  height: 180px;
+
+}
+
+form button{
+  background-color: rgb(182, 24, 25);
+  color: rgb(229, 229, 229);
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover{
+  background-color: rgb(231, 42, 42);
+}
+
+input:focus, textarea:focus{
+  outline-color: rgb(182, 24, 25);
+}
+
+.social-links li{
+  display: inline;
+  margin-right: 8px;
+}
+
+.social-links li a{
+  text-decoration: none;
+}
+
+.social-links img{
+  height: 24px;
+}
+
+section h3{
+  margin-bottom: 16px;
+}
+
+footer{
+  background-color: rgb(182, 24, 25);;
+  color: rgb(229, 229, 229);
+  padding: 16px 0;
+}
